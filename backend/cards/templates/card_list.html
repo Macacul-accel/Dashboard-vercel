@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Liste des cartes{% endblock title %}
+
+{% block head %}
+    {{ block.super }}
+    <link href="{% static 'css/app.818723b0.css' %}" rel="stylesheet">
+{% endblock head %}
+
+{% block main %}
+    <div id="app"></div>
+    <script src="{% static 'js/app.0fcc521c.js' %}"></script>
+    <script src="{% static 'js/chunk-vendors.304a0758.js' %}"></script>
+{% endblock main %}
